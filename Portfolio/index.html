@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Professional portfolio of Your Name - Web Developer"
+    />
+
+    <title>Mondal.Coder</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="logo">
+          <span>&lt;</span>Dev<span>/&gt;</span>
+        </a>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            id="themeToggle"
+            class="icon-btn"
+            aria-label="Toggle dark mode"
+          >
+            <i class="fa-solid fa-moon"></i>
+          </button>
+
+          <button id="menuToggle" class="menu-btn" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= HOME ================= -->
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <p class="hero-small">Hello, I'm</p>
+
+            <h1>Debkanta <span>Mondal</span></h1>
+
+            <h2>I'm a <span id="typingText">Web Developer</span></h2>
+
+            <p class="hero-description">
+              I create modern, responsive and user-friendly websites using HTML,
+              CSS and JavaScript.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn primary-btn">
+                View My Work
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+              <a href="#contact" class="btn secondary-btn"> Contact Me </a>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a
+                href="https://linkedin.com/"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a
+                href="https://instagram.com/"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="mailto:debkantaofficial44@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Profile Image -->
+          <div class="hero-image">
+            <div class="image-circle">
+              <img src="image/Image.png" alt="Your Name" />
+            </div>
+
+            <div class="floating-card card-one">
+              <i class="fa-solid fa-code"></i>
+              <span>Developer</span>
+            </div>
+
+            <div class="floating-card card-two">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>Creative</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-title">
+            <p>Get To Know Me</p>
+            <h2>About <span>Me</span></h2>
+          </div>
+
+          <div class="about-container">
+            <div class="about-image">
+              <img src="images/profile.jpg" alt="About Your Name" />
+            </div>
+
+            <div class="about-content">
+              <h3>Passionate Web Developer</h3>
+
+              <p>
+                I'm a passionate web developer who enjoys creating beautiful and
+                functional websites. I focus on writing clean code and building
+                responsive experiences that work across different devices.
+              </p>
+
+              <p>
+                I continuously learn new technologies and improve my development
+                skills by working on real-world projects.
+              </p>
+
+              <div class="about-info">
+                <div>
+                  <i class="fa-solid fa-user"></i>
+                  <strong>Name:</strong>
+                  <span>Debkanta Mondal</span>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-envelope"></i>
+                  <strong>Email:</strong>
+                  <span>debkantaofficial44@gmail.com</span>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <strong>Location:</strong>
+                  <span>Kolkata, West bengal, India</span>
+                </div>
+              </div>
+
+              <a href="#contact" class="btn primary-btn">
+                Let's Talk
+                <i class="fa-solid fa-paper-plane"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SKILLS ================= -->
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-title">
+            <p>What I Know</p>
+            <h2>My <span>Skills</span></h2>
+          </div>
+
+          <div class="skills-container">
+            <div class="skill-card">
+              <div class="skill-icon html">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+
+              <h3>HTML5</h3>
+
+              <p>Semantic and accessible website structure.</p>
+
+              <div class="progress">
+                <div class="progress-bar" data-width="90%"></div>
+              </div>
+
+              <span>90%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon css">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+
+              <h3>CSS3</h3>
+
+              <p>Responsive layouts, animations and modern UI.</p>
+
+              <div class="progress">
+                <div class="progress-bar" data-width="85%"></div>
+              </div>
+
+              <span>85%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon js">
+                <i class="fa-brands fa-js"></i>
+              </div>
+
+              <h3>JavaScript</h3>
+
+              <p>Interactive and dynamic web applications.</p>
+
+              <div class="progress">
+                <div class="progress-bar" data-width="80%"></div>
+              </div>
+
+              <span>80%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon git">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+
+              <h3>Git</h3>
+
+              <p>Version control and collaborative development.</p>
+
+              <div class="progress">
+                <div class="progress-bar" data-width="75%"></div>
+              </div>
+
+              <span>75%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS ================= -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-title">
+            <p>My Recent Work</p>
+            <h2>Featured <span>Projects</span></h2>
+          </div>
+
+          <div class="projects-container">
+            <article class="project-card">
+              <div class="project-image">
+                <div class="project-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <span class="project-category"> Web Development </span>
+
+                <h3>Online Shopping Website</h3>
+
+                <p>
+                  A responsive e-commerce website created using HTML, CSS and
+                  JavaScript.
+                </p>
+
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" aria-label="Live demo">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+                  </a>
+
+                  <a href="#" aria-label="GitHub repository">
+                    <i class="fa-brands fa-github"></i>
+                    Code
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-two">
+                <div class="project-icon">
+                  <i class="fa-solid fa-cloud-sun"></i>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <span class="project-category"> JavaScript </span>
+
+                <h3>Weather Application</h3>
+
+                <p>
+                  A weather application that displays current weather
+                  information using an API.
+                </p>
+
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>API</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+                  </a>
+
+                  <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                    Code
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-three">
+                <div class="project-icon">
+                  <i class="fa-solid fa-list-check"></i>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <span class="project-category"> Frontend </span>
+
+                <h3>Task Management App</h3>
+
+                <p>
+                  A simple task management application with an interactive user
+                  interface.
+                </p>
+
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+                  </a>
+
+                  <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                    Code
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-title">
+            <p>Let's Connect</p>
+            <h2>Contact <span>Me</span></h2>
+          </div>
+
+          <div class="contact-container">
+            <div class="contact-info">
+              <h3>Let's work together</h3>
+
+              <p>
+                Have a project in mind or want to discuss an opportunity? Feel
+                free to contact me.
+              </p>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <div>
+                  <h4>Email</h4>
+                  <p>yourname@example.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+
+                <div>
+                  <h4>Phone</h4>
+                  <p>+91 98765 43210</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div>
+                  <h4>Location</h4>
+                  <p>Your City, India</p>
+                </div>
+              </div>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+              <div class="input-group">
+                <label for="name">Your Name</label>
+
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="email">Your Email</label>
+
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="message">Message</label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Write your message..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn primary-btn">
+                Send Message
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <p id="formMessage" class="form-message"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="#home" class="logo">
+          <span>&lt;</span>Portfolio<span>/&gt;</span>
+        </a>
+
+        <p>© <span id="currentYear"></span> Your Name. All Rights Reserved.</p>
+
+        <div class="footer-social">
+          <a href="https://github.com/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="mailto:yourname@example.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
